@@ -15,9 +15,7 @@ public class AdvancedBooleanLogic {
      * @param b2 second boolean to be compared.
      * @return false if b1 and b2 are both true. Otherwise, return true.
      */
-    public boolean returnNotBoth(boolean b1, boolean b2){
-        return !(b1 && b2);
-    }
+    public boolean returnNotBoth(boolean b1, boolean b2){ return !(b1 && b2); }
     /**
      * b1 OR b2, BUT NOT BOTH
      * @param b1 first boolean to be compared.
