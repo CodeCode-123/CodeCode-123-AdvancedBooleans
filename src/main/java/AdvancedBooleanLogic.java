@@ -19,6 +19,7 @@ public class AdvancedBooleanLogic {
         return !(b1 && b2); 
     }
 
+
     /**
      * b1 OR b2, BUT NOT BOTH
      * @param b1 first boolean to be compared.
@@ -29,6 +30,7 @@ public class AdvancedBooleanLogic {
         return b1 != b2; 
     }
 
+
     /**
      * Neither b1 NOR b2
      * @param b1 first boolean to be compared.
@@ -38,4 +40,5 @@ public class AdvancedBooleanLogic {
     public boolean returnNeitherNor(boolean b1, boolean b2){ 
         return !(b1 || b2); 
     }
+    
 }
